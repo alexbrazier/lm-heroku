@@ -1,17 +1,17 @@
 {
-  "name": "listmonk",
-  "description": "Self-hosted newsletter + mailing list manager",
-  "repository": "https://github.com/knadh/listmonk-heroku",
+  "name": "lm-server",
+  "description": "LM Test",
+  "repository": "https://github.com/alexbrazier/lm-heroku",
   "logo": "https://listmonk.app/static/images/listmonk.svg",
-  "website": "https://listmonk.app",
-  "keywords": ["emails", "newsletter", "mailing-list"],
+  "website": "https://example.com",
+  "keywords": ["other"],
 
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-apt"
     },
     {
-      "url": "https://github.com/knadh/listmonk-heroku"
+      "url": "https://github.com/alexbrazier/lm-heroku"
     }
   ],
   "addons": ["heroku-postgresql"],
